@@ -1,0 +1,16 @@
+<div style="max-width: 100%; padding: 20px">
+    <h1>Listagem de {{title}}</h1>
+    <div class="card-main">
+        {{#each data}}
+            <div class="card">
+                    <div class="card-title">{{dataValues.post_title}}</div>
+                    {{title}}
+                    <p class="card-text">{{dataValues.post_content}}</p>
+                <div class="card-div-button">
+                    <button class="btn-success">Selecionar</button>
+                    <a href="http://localhost:8000/{{dataValues.table}}/{{dataValues.id}}/delete"><button class="btn-alert">Deletar</button></a>
+                </div>
+            </div>
+        {{/each}} 
+    </div>
+</div>

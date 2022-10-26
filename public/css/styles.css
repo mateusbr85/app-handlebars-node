@@ -1,0 +1,83 @@
+h1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px
+} 
+
+button {
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.card-main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 20vh;
+    height: 25vh;
+    border: 2px solid #aa91f7;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    transition: all 0.3s ease-out;
+    padding: 1vh;
+    margin-top: 2vh;
+    margin-right: 2vh;
+}
+
+
+.card:hover {
+    border: 2px solid #5a29ed;
+    border-radius: 10px;
+    transform: translateY(-5px);
+}
+
+.card-title {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    margin-top: 10px;
+    height: 13vh;
+    margin: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.card-div-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-success {
+    background-color: #18b814;
+    color: #fff;
+    border: 1px solid  #18b814;
+}
+
+.btn-success:hover {
+    background-color: #17a813;
+}
+
+.btn-alert {
+    background-color: #ff4848;
+    color: #fff;
+    border: 1px solid   #ff4848;
+}
+
+.btn-alert:hover {
+    background-color: #ff0d0d;
+}
