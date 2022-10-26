@@ -12,6 +12,38 @@ button {
     cursor: pointer;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    border: 1px solid #000;
+    height: 3vh;
+    border-radius: 10px;
+}
+
+input:hover {
+    border: 1px solid #4633f0;
+}
+
+form {
+    border: 1px solid #4633f0;
+    border-radius: 10px;
+    width: 30vh;
+    height: 30vh;
+    padding-left: 3vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: row;
+    padding: 6vh;
+    justify-content: center;
+}
+
 .card-main {
     display: flex;
     width: 100%;
