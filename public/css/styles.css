@@ -113,3 +113,13 @@ form {
 .btn-alert:hover {
     background-color: #ff0d0d;
 }
+
+.btn-pattern {
+    background-color: #7735ac;
+    color: #fff;
+    border: 1px solid  #7735ac;
+}
+
+.btn-pattern:hover {
+    background-color: #4a216b;
+}

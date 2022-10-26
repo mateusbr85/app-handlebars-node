@@ -19,7 +19,7 @@ const hbs = handlebars.create({
     defaultLayout: 'main',
     helpers: {
         console: function(value) {
-            console.log({value});
+            // console.log({value});
         }
     }
 })
@@ -64,7 +64,7 @@ app.get('/:crud/:table/list', async (req, res) => {
         for(let i in data){
             data[i].dataValues.table = req.params.table;
         }
-        console.log(data[0].dataValues)
+        // console.log(data[0].dataValues)
 
         res.render(req.params.crud, {data: data, title:req.params.table, script: req.params.table})
     }).catch((e) => {console.log(e)});
